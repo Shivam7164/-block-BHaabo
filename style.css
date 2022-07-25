@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ############ header ######### */
+
+header{
+    background-color: rgb(34,41,70);
+    padding: 20px;
+}
+header .child1{
+    color: white;
+}
+header .child2 a{
+    display: inline-block;
+    background-color: rgba(240, 248, 255, 0.175);
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.child2 .span{
+    
+    color: white;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+/* ############# main section.father1 ########### */
+/* ###################### aside.father2 #################### */
+main{
+    padding:  50px 0;
+}
+.father1 .child9 img{
+    width: 50px;
+}
+.father2 .child{
+    text-decoration: none;
+    padding: 16px;
+
+    
+}
+.father2{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.father2 .child5{
+    border:3px solid rgb(250,127,50) ;
+    border-radius: 10px;
+    color: rgb(250,127,50);
+}
+.father1 a span{
+    padding-left: 5px;
+    vertical-align: middle;
+}
+.father1 a i{
+    vertical-align: middle;
+}
+
+
+.father1 aside{
+    background-color: rgb(163,202,234);
+    padding: 30px;
+    flex: 0 1 35%;
+    align-self: stretch;
+    
+}
+.father2 nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+.father2 .btn img{
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.father2 .btn{
+    padding: 15px 40px;
+    width: 100%;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 15px;
+    align-self: flex-start;
+    border: 0;
+    box-shadow: none;
+    text-align: left;
+}
+
+
+
+
+/* ################### Article.father3 ############ */
+
+.father3{
+    flex: 0 1 60%;
+    background-color: rgb(241, 245, 249);
+    padding: 25px;
+    border-radius: 20px;
+}
+.father3 figure img{
+    width: 100%;
+    border-radius: 20px;
+}
+.father3 .child11 h2{
+    font-size: 32px;
+    padding: 10px 0;
+}
+.father3 .child11 p{
+    font-size: 15px;
+    line-height: 25px;
+    
+}
+.father3 .child11 a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+   background-color: #37B667;
+   color: white;
+   text-decoration: none;
+   line-height: 40px;
+   text-align: center;
+   margin:20px 10px;
+    border-radius: 7px;
+}
+
+/* ############ footer ######### */
+footer{
+    background-color: rgb(34,41,70);
+    padding: 30px 0;
+}
+footer div p{
+    color: white;
+    font-size: 20px;
+}
+footer nav a{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
